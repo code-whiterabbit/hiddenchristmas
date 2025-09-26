@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -11,7 +10,7 @@
             padding: 0;
             height: 100vh;
             display: flex;
-            flex-direction: column; /* 위아래 배치 */
+            flex-direction: column; /* 위 → 아래 정렬 */
             justify-content: center; /* 세로 중앙 */
             align-items: center; /* 가로 중앙 */
             background-color: black;
@@ -19,26 +18,26 @@
 
         /* 이미지 스타일 */
         img {
-            max-width: 80%; /* 화면에 너무 크게 나오지 않도록 */
-            height: auto;
-            margin-bottom: 20px; /* 텍스트와 간격 */
-            border-radius: 10px;
+            max-width: 60%; /* 화면 가로의 60%까지만 */
+            height: auto; /* 세로 비율 자동 유지 */
+            margin-bottom: 20px; /* 아래 텍스트와 간격 */
+            display: block; /* 중앙 정렬을 위해 block 설정 */
         }
 
-        /* 타이틀 스타일 */
+        /* 타이틀 (빨간색 FF0000) */
         h1 {
             font-size: 2.5rem;
             font-weight: bold;
             text-align: center;
-            color: white;
+            color: #FF0000; /* 빨간색 */
             font-family: 'Courier New', monospace;
         }
 
-        /* 서브 텍스트 스타일 */
+        /* 서브 텍스트 */
         p {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             text-align: center;
-            color: #ddd;
+            color: #ddd; /* 밝은 회색 */
             margin-top: 10px;
         }
     </style>
@@ -48,7 +47,7 @@
     <img src="xxx.jpeg" alt="Burning house and horse">
 
     <!-- 텍스트 -->
-    <h1>🎄 𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝙷𝚒𝚍𝚍𝚎𝚗 𝙲𝚑𝚛𝚒𝚜𝚝𝚖𝚊𝚜 🎄</h1>
+    <h1>🎄 Welcome to Hidden Christmas 🎄</h1>
     <p>ᶜᵃⁿ ʸᵒᵘ ᵍᵘᵉˢˢ?</p>
 </body>
 </html>
